@@ -1,0 +1,33 @@
+#bannerHeader {
+    /* Define o header como um contêiner flexível */
+    display: flex;
+    /* Alinha os itens (h1 e o div do banner) no eixo principal (horizontal) */
+    justify-content: center; 
+    /* Coloca os itens em uma coluna para que o h1 fique acima do banner */
+    flex-direction: column; 
+    /* Centraliza os itens no eixo cruzado (horizontalmente) */
+    align-items: center; 
+}
+body{
+    width: 90%; /* O conteúdo preencherá 90% da largura da janela */
+max-width: 1200px; /* Largura máxima para não esticar demais em telas grandes */
+margin: 0 auto; 
+    align-items: center;
+    text-align: center;
+}
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: gray;
+    padding: 5;
+  }
+h1{
+    background-color: lightgray;
+    align-items: center;
+    text-align: center;
+}
+h3{
+    background-color: lightgray;
+}
+h4{
+    background-color: lightgray;
+}

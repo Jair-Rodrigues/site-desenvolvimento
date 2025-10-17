@@ -1,0 +1,44 @@
+#bannerHeader {
+  /* Define o header como um contêiner flexível */
+  display: flex;
+  /* Alinha os itens (h1 e o div do banner) no eixo principal (horizontal) */
+  justify-content: center; 
+  /* Coloca os itens em uma coluna para que o h1 fique acima do banner */
+  flex-direction: column; 
+  /* Centraliza os itens no eixo cruzado (horizontalmente) */
+  align-items: center; 
+}
+h1{
+    background-color: lightblue;
+    align-items: center;
+    text-align: center;
+}
+table{
+    width: 80%;
+    margin: auto;
+  }
+  th,td{
+    text-align: center;
+    border: 2px solid green;
+    font-size: 18px;
+  }
+td{
+    align-items: center;
+    margin: auto;
+  text-align: justify;
+  width: auto
+}
+th{
+    background-color: yellow;
+    text-align: center;
+    align-items: center;
+    margin: auto;
+}
+.tdFoto{
+    width: 16%;
+  }
+  .banner {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+  }

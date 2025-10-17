@@ -1,0 +1,58 @@
+#bannerHeader {
+  /* Define o header como um contêiner flexível */
+  display: flex;
+  /* Alinha os itens (h1 e o div do banner) no eixo principal (horizontal) */
+  justify-content: center; 
+  /* Coloca os itens em uma coluna para que o h1 fique acima do banner */
+  flex-direction: column; 
+  /* Centraliza os itens no eixo cruzado (horizontalmente) */
+  align-items: center; 
+}
+body{
+  width: 95%;
+  max-width: 1200px;
+margin: 0 auto;
+}
+h1{
+    background-color: lightgreen;
+    align-content: center;
+    text-align: center;
+}
+h2{
+  background-color: lightgreen;
+}
+h3{
+  background-color: lightgreen;
+}
+.submit{
+    background-color: green;
+    color: white;
+  }
+  .limpa{
+    background-color: aquamarine;
+    color: orange;
+  }
+  form{
+    align-items: center;
+    text-align: center;
+}
+.cartao-formulario {
+    /* Fundo Branco */
+    background-color: #FFFFFF;
+
+    /* Adiciona um preenchimento interno para que o conteúdo não toque as bordas */
+    padding: 20px;
+
+    /* Opcional: Borda arredondada para um visual mais suave */
+    border-radius: 8px;
+
+    /* Sombra Leve */
+    /* Os 4 valores são: deslocamento-x | deslocamento-y | raio-do-desfoque | cor-da-sombra */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    
+    /* Opcional: Define uma largura máxima para o cartão para que não ocupe a tela toda */
+    max-width: 800px;
+    
+    /* Opcional: Centraliza o cartão na tela se uma max-width for usada */
+    margin: 30px auto; 
+}

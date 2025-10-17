@@ -1,0 +1,15 @@
+#bannerHeader {
+    /* Define o header como um contêiner flexível */
+    display: flex;
+    /* Alinha os itens (h1 e o div do banner) no eixo principal (horizontal) */
+    justify-content: center; 
+    /* Coloca os itens em uma coluna para que o h1 fique acima do banner */
+    flex-direction: column; 
+    /* Centraliza os itens no eixo cruzado (horizontalmente) */
+    align-items: center; 
+}
+h1{
+    background-color: lightgreen;
+    align-content: center;
+    text-align: center;
+}

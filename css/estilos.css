@@ -1,0 +1,46 @@
+th,td{
+  text-align: center;
+  border: 2px solid green;
+  font-size: 18px;
+}
+table{
+  width: 80%;
+  margin: auto;
+}
+*{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: gray;
+  padding: 5;
+}
+.tdFoto{
+  width: 16%;
+}
+.banner {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+footer{
+  text-align: center;
+}
+.titulo{
+  background-color: lightskyblue;
+  text-align: center;
+}
+.tabela{
+  width: 80%;
+  margin: auto;
+}
+.th{
+  margin: auto;
+}
+.td{
+  margin: auto;
+  text-align: justify;
+  width: auto;
+}
+.th{
+  font-size: 18px;
+  text-align: center;
+  background-color: yellow;
+}

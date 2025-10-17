@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página de Contato</title>
+    <link rel="stylesheet" href="css/contato.css"/>
+</head>
+<body>
+    <header id="bannerHeader">
+        <h1 class="titulo">Formas de contato</h1>
+    </header>
+    <div>
+        <ul>
+            <li>Telefone: (21) 3478-2017</li>
+            <li>E-mail:
+                <a href="https://mail.google.com/mail/?view=cm&to=ibc@ibc.gov.br&su=Contato com Instituto Benjamin Constant&body=Digite sua mensagem aqui" target="_blank">ibc@ibc.gov.br</a>
+            </li>
+        </ul>
+    </div>
+    <div>
+        <form class="cartao-formulario" id="formContato">
+            <div>
+                <h2>Formulário para Contato</h2>
+            <p>
+                Preencha os campos abaixo e envie sua mensagem. Os campos com asterísco são de preenchimento obrigatório.
+            </p>
+            </div>
+            <div>
+                <h3>* Nome</h3>
+            <label for="txtNome">* Nome:</label>
+            <input type="text" id="txtNome" required/>
+            </div>
+            <div>
+                <h3>* E-mail</h3>
+            <label for="txtEmail">* E-mail:</label>
+            <input type="text" id="txtEmail" required/>
+            </div>
+            <div>
+                <h3>* Data</h3>
+                <label for="txtDataMensagem">* Data:</label>
+                <input type="date" id="txtDataMensagem"/>
+            </div>
+            <div>
+                <h3>* Sua Mensagem</h3>
+            <label for="txtMensagem">* Digite Sua Mensagem</label>
+            <textarea name="txtMensagem" id="txtMensagem" placeholder="Esscreva sua mensagem" rows="10" cols="50" required></textarea>
+            </div>
+            <button class="limpa" type="button" id="btnLimpa">Limpar Campos</button>
+            <br>
+            <button class="submit" type="submit" id="btnSubmit">Enviar</button>
+        </form>
+    </div>
+    <div id="divMensagemContato"></div>
+    <hr>
+    <a href="index.html">Voltar</a>
+    <script type="module" src="dist/contato.js"></script>
+    <script type="module" src="dist/banner.js"></script>
+    </body>
+</html>

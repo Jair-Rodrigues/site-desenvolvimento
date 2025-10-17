@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Página de Login</title>
+        <link rel="stylesheet" href="css/login.css">
+    </head>
+    <body>
+        <h1>Faça seu Login</h1>
+        <div>
+            <p>
+                Digite seu usuário e em seguida digite sua senha e clique no botão entrar.
+            </p>
+        </div>
+        <div>
+            <form class="cartao-formulario " id="formLogin">
+                <div>
+                    <label for="txtUsuario">* Usuário: </label>
+                    <input type="text" id="txtUsuario" />
+                </div>
+                <div>
+                    <label for="txtSenha">* Senha: </label>
+                    <input type="password" id="txtSenha" />
+                </div>
+                <div>
+                    <button type="submit">Entrar</button>
+                </div>
+    
+            </form>
+        </div>
+        <hr/>
+        <div id="mensagem" role="alert" aria-live="assertive"></div>
+        <script type="module" src="dist/login.js"></script>
+        <a href="index.html">Voltar</a> 
+    </body>
+</html>
