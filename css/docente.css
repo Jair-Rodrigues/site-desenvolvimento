@@ -26,7 +26,8 @@ td{
     align-items: center;
     margin: auto;
   text-align: justify;
-  width: auto
+  width: auto;
+  text-align: center;
 }
 th{
     background-color: yellow;
