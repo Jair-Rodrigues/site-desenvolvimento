@@ -1,6 +1,3 @@
-*{
-  font-size: ;
-}
 #bannerHeader {
   /* Define o header como um contêiner flexível */
   display: flex;
@@ -17,7 +14,7 @@ h1{
     text-align: center;
 }
 table{
-    width: 95%;
+    width: 90%;
     margin: auto;
   }
  
