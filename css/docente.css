@@ -46,3 +46,8 @@ th{
     margin-right: auto;
     display: block;
   }
+.voltar{
+  font-size: 35px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+}
