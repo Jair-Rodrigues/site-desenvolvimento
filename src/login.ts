@@ -1,4 +1,3 @@
-import { Administrador } from "./classes/administrador";
 
 const formLogin = document.getElementById("formLogin") as HTMLFormElement;
 const txtUsuario = document.getElementById("txtUsuario") as HTMLInputElement;

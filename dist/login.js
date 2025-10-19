@@ -1,4 +1,3 @@
-import { Administrador } from "./classes/administrador";
 const formLogin = document.getElementById("formLogin");
 const txtUsuario = document.getElementById("txtUsuario");
 const txtSenha = document.getElementById("txtSenha");
@@ -23,4 +22,5 @@ formLogin.addEventListener("submit", (event) => {
         }, 1000);
     }
 });
+export {};
 //# sourceMappingURL=login.js.map

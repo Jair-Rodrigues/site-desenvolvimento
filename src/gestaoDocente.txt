@@ -1,5 +1,6 @@
-// gestaoDocentes.ts (Para o arquivo gestaoDocente.html)
 
+// gestaoDocentes.ts (Para o arquivo gestaoDocente.html)
+/*
 import { Docente} from "./classes/docente.js"; // Importe a interface Professor
 
 const DOCENTES_STORAGE_KEY = 'docentesDoCurso';
@@ -177,3 +178,4 @@ function excluirAdm(id: string){
     carregarTabela();
 }
     */
+   */
