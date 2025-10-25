@@ -1,3 +1,4 @@
+// classe
 export class Contato{
     public id: string;
     constructor(
